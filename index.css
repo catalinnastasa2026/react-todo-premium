@@ -1,4 +1,8 @@
-/* Importurile Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* optional: dark mode setup */
+body {
+  @apply transition-colors duration-300;
+}
