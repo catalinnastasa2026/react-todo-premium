@@ -1,9 +1,7 @@
-function Footer({ year }) {
+export default function Footer({ year }) {
   return (
-    <footer className="text-center py-6 text-gray-500 dark:text-gray-400">
-      &copy; {year} Nastasa Catalin. Toate drepturile rezervate.
+    <footer className="bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200 p-4 text-center mt-auto">
+      © {year} Nastasa Catalin
     </footer>
   );
 }
-
-export default Footer;
